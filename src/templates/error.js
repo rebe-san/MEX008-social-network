@@ -1,12 +1,11 @@
-let Store = {
+let Error404 = {
     render : async () => {
         let view = `
-        <section class="all-sections">
-        </section>`
+        <p>Hola error404 </p>`
         return view
     }
 , after_render: async () => {}
 
 }
 
-export default Store;
+export default Error404;
